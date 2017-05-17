@@ -108,11 +108,11 @@ $ git clone https://github.com/iissnan/hexo-theme-next themes/next
 ```
 可简写"**hexo s**", 可以开启debug模式 "**hexo server -debug**".
 
-此时即可使用浏览器访问 http://localhost:4000，检查站点是否正确运行。
+此时即可使用浏览器访问 http://localhost:4000 ，检查站点是否正确运行。
 
 
 ### 3.3 使用
-（可参考[官方教程](https://hexo.io/zh-cn/docs/commands.html）
+（可参考[官方教程](https://hexo.io/zh-cn/docs/commands.html) )
 #### 1.新建一篇文章 
 ```
     hexo new [layout] <title>
@@ -133,16 +133,21 @@ $ git clone https://github.com/iissnan/hexo-theme-next themes/next
 ```
 可简写 "**hexo g**"， 通过""**hexo deploy -g**"也是生成静态文件。
    "**hexo generate -d**" 生成后立即部署。
+
    
 
 #### 4.启动服务器
 ```
     hexo server
 ```
-　　启动服务器。可简写 ""**hexo s**"，默认情况下，访问网址为： http://localhost:4000/。
-   选项**-p, --port**--重设端口，
-   **-s, --static**--只使用静态文件
-，**-l, --log**启动日记记录，使用覆盖记录格式
+　　启动服务器。可简写 ""**hexo s**"，默认情况下，访问网址为： http://localhost:4000/ 。
+
+
+| 选项	         | 描述                        | 
+| ---------------|-------------------------   |
+| -p, --port     | 设置服务的端口号              |
+| -s, --static   | 只使用静态文件      	        | 
+| -l, --log      | 启动日记记录,使用覆盖记录格式    |
 
 
 #### 5.部署网站
