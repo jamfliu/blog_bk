@@ -8,36 +8,30 @@ tags:
 categories: 随笔
 description: 之前使用的hexo的jacman,但是发现还是没hexo的nexT的简约，而且nexT本身就自配置了各种第三方插件，你需要开启和设置对应一些你的参数即可。所以果断选他。这篇博客主要是简单带过并且补充一些我走过坑和一些注意事项。欢迎搭建评论和谈论交流。
 
+
 ---
-## 概念
-[NexT](http://theme-next.iissnan.com): 是hexo的一个主题，你可以换各种hexo主题，而保持原有内容不变。
+## 一、名词解释
+* <font style="color:blue"> ***[NexT](http://theme-next.iissnan.com)***</font>: 是hexo的一个主题，你可以换各种hexo主题，而保持原有内容不变。
+* <font style="color:blue">***[Hexo](https://hexo.io/zh-cn/)***</font>: 是高效的静态站点生成框架，基于 Node.js。 通过 Hexo 你可以轻松地使用 Markdown 编写文章，除了 Markdown 本身的语法之外，还可以使用 Hexo 提供的 标签插件 来快速的插入特定形式的内容。
+  特点：超快速度(渲染速度)，支持markdown,一键部署，丰富的插件
+* <font style="color:blue">***[npm](https://www.npmjs.com/)***</font>: 是随同NodeJS一起安装的包管理工具，能解决NodeJS代码部署上的很多问题
+	1. 允许用户从NPM服务器下载别人编写的第三方包到本地使用。  
+	2. 允许用户从NPM服务器下载并安装别人编写的命令行程序到本地使用。 
+	3. 允许用户将自己编写的包或命令行程序上传到NPM服务器供别人使用。
 
-[Hexo](https://hexo.io/zh-cn/): 是高效的静态站点生成框架，基于 Node.js。 通过 Hexo 你可以轻松地使用 Markdown 编写文章，除了 Markdown 本身的语法之外，还可以使用 Hexo 提供的 标签插件 来快速的插入特定形式的内容。
-
-　　特点：超快速度(渲染速度)，支持markdown,一键部署，丰富的插件
-   
-[npm](https://www.npmjs.com/): 是随同NodeJS一起安装的包管理工具，能解决NodeJS代码部署上的很多问题
-
-1. 允许用户从NPM服务器下载别人编写的第三方包到本地使用。  
-2. 允许用户从NPM服务器下载并安装别人编写的命令行程序到本地使用。 
-3. 允许用户将自己编写的包或命令行程序上传到NPM服务器供别人使用。
-
-
-<font style="background-color:#2780e3;display: inline;padding: .2em .6em .3em;font-size: 85%;font-weight: 700;line-height: 1;color: #fff;
+* <font style="background-color:#2780e3;display: inline;padding: .2em .6em .3em;font-size: 85%;font-weight: 700;line-height: 1;color: #fff;
     text-align: center; white-space: nowrap;vertical-align: baseline;border-radius: .25em;">站点配置文件</font>:一份位于站点根目录下，主要包含 Hexo 本身的配置。位置：your-hexo-site/_config.yml
 
-
-<font style="background-color:#9954bb;display: inline;padding: .2em .6em .3em;font-size: 85%;font-weight: 700;line-height: 1;color: #fff;
+* <font style="background-color:#9954bb;display: inline;padding: .2em .6em .3em;font-size: 85%;font-weight: 700;line-height: 1;color: #fff;
     text-align: center; white-space: nowrap;vertical-align: baseline;border-radius: .25em;">主题配置文件</font>:位于主题目录下，这份配置由主题作者提供，主要用于配置主题相关的选项。位置: your-hexo-site/themes/主题名/\_config.yml。例如next的就是your-hexo-site/themes/next/_config.yml
 
 
 ---
-## Hexo安装指南
-###条件
-　　先安装好Git和Node.js
-　　（详细的安装过程见[官方教程](https://hexo.io/zh-cn/docs/)）
+## 二、Hexo安装指南
+### 2.1 条件
+　　先安装好Git和Node.js （详细的安装过程见[官方教程](https://hexo.io/zh-cn/docs/)）
 
-### Hexo的安装
+### 2.2 Hexo的安装
 #### 1.安装Hexo
 　　所有必备的应用程序安装完成后，即可使用 npm 安装 Hexo。
 
@@ -60,21 +54,21 @@ $ npm install
 
 
 ---
-### Hexo主题安装
+### 2.3 Hexo主题安装
 
 　　Hexo 安装主题的方式非常简单，只需要将主题文件拷贝至站点目录的 themes 目录下， 然后修改下配置文件即可。
 
-### Hexo目录简介
+### 2.4 Hexo目录简介
 详细看图片：
 
 ![image](/images/pages/hexo_desciption.png)
 
 
-## NexT主题安装指南
-### 条件
+## 三、NexT主题安装指南
+### 3.1 条件
 　　先安装好Git和hexo
 　　（详细的安装过程可参考[官方教程](http://theme-next.iissnan.com/getting-started.html)）（本人的是mac os x，直接brew install指令即可）
-### 主题安装步骤
+### 3.2 主题安装步骤
 #### 1.下载主题
 【方式一:Git的方式】
 　在终端窗口下，定位到 Hexo 站点目录下。使用 Git checkout 代码：　　
@@ -117,7 +111,7 @@ $ git clone https://github.com/iissnan/hexo-theme-next themes/next
 此时即可使用浏览器访问 http://localhost:4000，检查站点是否正确运行。
 
 
-### 使用
+### 3.3 使用
 （可参考[官方教程](https://hexo.io/zh-cn/docs/commands.html）
 #### 1.新建一篇文章 
 ```
@@ -172,14 +166,21 @@ $ git clone https://github.com/iissnan/hexo-theme-next themes/next
 
 
 
-## NexT主题定制化以及第三方配置指南
-### 我的主题定制的情况：
+## 四、NexT主题定制化以及第三方配置指南
+### 4.1 我的主题定制的情况：
 　　修改<font style="background-color:#9954bb;display: inline;padding: .2em .6em .3em;font-size: 85%;font-weight: 700;line-height: 1;color: #fff;
     text-align: center; white-space: nowrap;vertical-align: baseline;border-radius: .25em;">主题配置文件</font>的。本身NexT主题里面有配置很多的第三方插件配置，所以只需要打开和对应配置你的一些App_ID即可。
 #### 1.修改主题scheme
+```
     scheme: Pisce
+```
+
 #### 2.设置代码高亮
+
+```
     highlight_theme: night bright
+```
+
 #### 3.修改侧边栏链接
 链接放置在 social 字段下，一行一个链接。其键值格式是 显示文本: 链接地址
 
@@ -205,7 +206,7 @@ favicon: images/lzffavicon.ico
 ```
 
 
-### 我的第三方插件定制的情况：
+### 4.2 我的第三方插件定制的情况：
 #### 1.统计阅读量
 　　原本我是申请了leancloud的appId和appKey，后面发现不蒜子统计中也包含了阅读量，所以我就配置但没用。
  
@@ -277,10 +278,10 @@ local_search:
  
  
 #### 5.内容分享功能
-　　百度分析在https好像有点问题，使用了JiaThis，但是好像也不稳定，暂时先开着。
-
+　　百度分享和JiaThis都不支持https，我已经关闭了，本地使用了JiaThis可以，如需要配置也很简单。
 　　编辑 <font style="background-color:#9954bb;display: inline;padding: .2em .6em .3em;font-size: 85%;font-weight: 700;line-height: 1;color: #fff;
     text-align: center; white-space: nowrap;vertical-align: baseline;border-radius: .25em;">主题配置文件</font>， 添加/修改字段 jiathis，值为 true。
+   
 
 #### 6.字数统计功能
 
@@ -289,17 +290,30 @@ local_search:
 ```
 npm install hexo-wordcount --save
 ```
+
  **2）修改配置文件**
  
- 为了方便地开启和关闭字数统计功能，我们需要在配置文件（站点配置文件或主题配置文件均可）中添加一个键值对：
+ 
+ 方式一：采用默认配置的方式：
+ 
+ ```
+ post_wordcount:
+  item_text: false
+  wordcount: true
+  min2read: true
+ ```
+
+ 
+ 方式二：自定义的方式
+ 
+  ①为了方便地开启和关闭字数统计功能，我们需要在配置文件（站点配置文件或主题配置文件均可）中添加一个键值对：
  
 ```
 # 开启字数统计
 word_count: true
 ```
 
-
- **3）修改主题的swig布局，themes/next/layout/_macro/post.swig**
+ ②修改主题的swig布局，themes/next/layout/_macro/post.swig**
 
   (看了这个swig，似乎默认支持的，虽然字段和结构不一样，但是我怎么配都不成功，所以新增了)
  
@@ -316,7 +330,7 @@ word_count: true
 
 
 
-### 出现过的问题汇总：
+### 4.3 出现过的问题汇总：
 出现解决较久的问题有：
 
 #### **1.启动的时候发起请求的时候报错ENOENT, no such file or directory **
@@ -411,7 +425,7 @@ Template render error: (unknown path) [Line 55, Column 232]
 
 *PS:有任何关于的问题，欢迎来评论讨论交流。*
 
-## 参考网站
+## 五、参考网站
 1. [Hexo的官方文档](https://hexo.io/zh-cn/)
 2. [NexT的官方文档](http://theme-next.iissnan.com)
 3. [为Hexo NexT主题添加字数统计功能](https://eason-yang.com/2016/11/05/add-word-count-to-hexo-next/)

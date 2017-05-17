@@ -249,9 +249,9 @@ post_meta:
 # Post wordcount display settings
 # Dependencies: https://github.com/willin/hexo-wordcount
 post_wordcount:
-  item_text: true
-  wordcount: false
-  min2read: false
+  item_text: false
+  wordcount: true
+  min2read: true 
 
 # Wechat Subscriber
 #wechat_subscriber:
@@ -345,7 +345,7 @@ livere_uid: MTAyMC8yODY3NS81MjQ2
 ##  type: button
 
 # Share
-jiathis: true
+#jiathis: true
 # Warning: JiaThis does not support https.
 #add_this_id:
 
@@ -604,7 +604,7 @@ version: 5.1.1
 
 # for extra add by jamefeng
 # 开启字数统计
-word_count: true
+#word_count: true
 #post_wordcount:
 #  wordcount: true
 #

@@ -205,16 +205,6 @@
           {% endif %}
 
 
-{% if theme.word_count %}
-  <span class="post-letters-count">
-    &nbsp; | &nbsp;
-    <span>{{ wordcount(post.content) }} 字</span>
-  </span>
-{% endif %}
-
-
-
-
           {% if theme.post_wordcount.wordcount or theme.post_wordcount.min2read %}
             <div class="post-wordcount">
               {% if theme.post_wordcount.wordcount %}

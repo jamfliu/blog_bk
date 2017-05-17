@@ -79,6 +79,7 @@ backup:
 deploy:
   type: git
   repository: https://github.com/jamfliu/jamfliu.github.io.git
+#  branch: develop
   branch: master
 
 
