@@ -2,8 +2,6 @@
   <% page.posts.each(function(post){ %>
     <%- partial('article', {post: post, index: true}) %>
   <% }) %>
-<<<<<<< HEAD
-=======
   <% if (page.total > 1){ %>
     <nav id="page-nav">
       <%- paginator({
@@ -12,7 +10,6 @@
       }) %>
     </nav>
   <% } %>
->>>>>>> 53c4aa56d74bd90a8dd24037e51a526d21d19d0e
 <% } else { %>
   <% var last; %>
   <% page.posts.each(function(post, i){ %>
@@ -24,11 +21,7 @@
       <% last = year; %>
       <section class="archives-wrap">
         <div class="archive-year-wrap">
-<<<<<<< HEAD
-          <a href="<%- url_for(config.archive_dir + '/' + year) %>" class="archive-year"><%= year %></a>
-=======
           <a href="<%- url_for('archives/' + year) %>" class="archive-year"><%= year %></a>
->>>>>>> 53c4aa56d74bd90a8dd24037e51a526d21d19d0e
         </div>
         <div class="archives">
     <% } %>
@@ -37,15 +30,4 @@
   <% if (page.posts.length){ %>
     </div></section>
   <% } %>
-<<<<<<< HEAD
-<% } %>
-<% if (page.total > 1){ %>
-  <nav id="page-nav">
-    <%- paginator({
-      prev_text: "&laquo; __('prev')",
-      next_text: "__('next') &raquo;"
-    }) %>
-  </nav>
-=======
->>>>>>> 53c4aa56d74bd90a8dd24037e51a526d21d19d0e
 <% } %>
