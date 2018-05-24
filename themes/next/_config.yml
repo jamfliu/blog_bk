@@ -52,7 +52,7 @@ menu:
   archives: /archives
   tags: /tags
   #sitemap: /sitemap.xml
-  #commonweal: /404.html
+  #ommonweal: /404.html
 
 
 # Enable/Disable menu icons.
@@ -183,6 +183,7 @@ toc:
 # http://creativecommons.org/
 # Available: by | by-nc | by-nc-nd | by-nc-sa | by-nd | by-sa | zero
 #creative_commons: by-nc-sa
+creative_commons: by-nc-sa
 #creative_commons:
 
 
@@ -500,7 +501,8 @@ use_motion: true
 fancybox: true
 
 # Canvas-nest
-canvas_nest: false
+#canvas_nest: false
+canvas_nest: true
 
 # three_waves
 three_waves: false
@@ -611,3 +613,5 @@ version: 5.1.1
 #  min2read: true
 #
 #  item_text: false
+passage_end_tag:
+  enabled: true

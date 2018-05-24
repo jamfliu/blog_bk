@@ -5,23 +5,30 @@ date: 2015-7-29 09:58:17
 tags:
 - Hexo
 - Jacman
+passage_end_tag:
+  enabled: false
 categories: Hexo
-description: Jacman 是一款扁平化，有着响应式设计的 Hexo 主题。本站正式使用了 Jacman 主题。Jacman 基于 Pacman 主题修改而来，而今已有很多特性与原主题不同。你可以前往本站和 Demo 预览更多关于本主题的更多效果。如果你有任何问题或意见欢迎到 GitHub 发表 issue。
+
+
 ---
-##主题介绍
+> Jacman 是一款扁平化，有着响应式设计的 Hexo 主题。本站正式使用了 Jacman 主题。Jacman 基于 Pacman 主题修改而来，而今已有很多特性与原主题不同。你可以前往本站和 Demo 预览更多关于本主题的更多效果。如果你有任何问题或意见欢迎到 GitHub 发表 issue。
+
+
+
+## 主题介绍
 [Jacman](https://github.com/wuchong/jacman) 是一款扁平化，有着响应式设计的 [Hexo](http://http://hexo.io/) 主题。本站正式使用了 Jacman 主题。Jacman 基于 [Pacman](https://github.com/A-limon/pacman) 主题修改而来，目前已有很多特性与原主题不同。你可以前往 [本站](http://wuchong.me) 和 [Demo](http://wuchong.me/jacman) 预览更多关于本主题的更多效果。如果你有任何问题或意见欢迎到 GitHub 发表 [issue](https://github.com/wuchong/jacman/issues)。
 
 距离当初我把 Jacman 开源至今已有半年零一周了，在这半年里也一直保持着对 Jacman 的更新。看到很多人用这款主题，fork&star 数也越来越好看，我也更有动力继续完善 Jacman。Jacman 自然还有很多改进空间，首先是文档问题，有许多人通过博客、微博、QQ 询问我有关主题的问题，我也意识到之前写的帮助手册可读性太差。正好趁着这次 Jacman 大更新，写篇更详尽、readable 的手册。
 
-##安装指南
-###安装
+## 安装指南
+### 安装
 在博客根目录下执行如下命令。
 ```
 $ git clone https://github.com/wuchong/jacman.git themes/jacman
 ```
 Jacman 需要安装 Hexo 2.7 及以上版本，请先升级您的 Hexo 程序，再启用此主题。
 
-###启用
+### 启用
 
 修改你的博客根目录下的`_config.yml`配置文件中的`theme`属性，将其设置为`jacman`。同时建议设置`stylus`属性中的`compress`值为true，会自动压缩 CSS 文件，hexo默认配置中不包含这一项，建议开启。如下。
 ```
@@ -30,7 +37,7 @@ stylus:
   compress: true
 ```
 
-###更新
+### 更新
 ```
 cd themes/jacman
 git pull origin master
@@ -38,7 +45,7 @@ git pull origin master
 请先备份您主题目录下的 `_config.yml` 文件后再升级。
 
 <!-- more -->
-##配置指南
+## 配置指南
 
 Jacman 主题提供了丰富的配置属性，可以实现您对主题的自定义。配置文件`_config.yml`位于主题根目录下。本次更新对配置文件进行了较大调整，如您之前就使用了 Jacman，也需要您根据以下指南进行相应的修改。
 

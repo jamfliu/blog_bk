@@ -6,10 +6,13 @@ tags:
 - how
 - 第三方插件
 categories: 随笔
-description: 之前使用的hexo的jacman,但是发现还是没hexo的nexT的简约，而且nexT本身就自配置了各种第三方插件，你需要开启和设置对应一些你的参数即可。所以果断选他。这篇博客主要是简单带过并且补充一些我走过坑和一些注意事项。欢迎搭建评论和谈论交流。
-
+description: 对Hexo的安装简单介绍，并且详细介绍我安装Next主题安装以及遇到的问题
 
 ---
+
+> 之前使用的hexo的jacman,但是发现还是没hexo的nexT的简约，而且nexT本身就自配置了各种第三方插件，你需要开启和设置对应一些你的参数即可。
+> 所以果断选他。这篇博客主要是简单带过并且补充一些我走过坑和一些注意事项。欢迎评论和交流。
+
 ## 一、名词解释
 * <font style="color:blue"> ***[NexT](http://theme-next.iissnan.com)***</font>: 是hexo的一个主题，你可以换各种hexo主题，而保持原有内容不变。
 * <font style="color:blue">***[Hexo](https://hexo.io/zh-cn/)***</font>: 是高效的静态站点生成框架，基于 Node.js。 通过 Hexo 你可以轻松地使用 Markdown 编写文章，除了 Markdown 本身的语法之外，还可以使用 Hexo 提供的 标签插件 来快速的插入特定形式的内容。
