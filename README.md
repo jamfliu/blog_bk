@@ -13,10 +13,24 @@ git push -u origin master
 git checkout -b deveplop
 git push -u origin deveplop
 
-
+### 查看差异(使用idea最佳)
+git add -i
 ### 合并解决冲突
 git mergetooli 
 
-### 
+###查看npm哪些插件能升
+npm -g outdated
+
+###升级全局的本地包
+ - 升级全局的npm: `npm install -g`
+ - 升级包 npm update <包名>
+ - 升级全部的包： 执行网上来的脚步：npm-upgrade.sh
+
+
+
+
+=========
+npm install -g
+ 
 
 
